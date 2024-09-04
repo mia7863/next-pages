@@ -10,7 +10,7 @@ const About = () => {
         <Image
           className="h-45 w-40 rounded-full mx-auto object-cover border-4 border-blue-500"
           src="/aboutme.JPG"
-          alt="Portrait of Muhammad Abdullah"
+          alt="M Abdullah"
           width={160}
           height={160}
         />

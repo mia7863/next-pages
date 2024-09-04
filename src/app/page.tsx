@@ -7,7 +7,7 @@ const Page = () => {
         <Image
           className="h-43 rounded-full mx-auto object-cover"
           src="/mia.JPG"
-          alt="Portrait of Sarah Dayan"
+          alt="M Abdullah"
           width={150} height={240}/>
         <blockquote className="text-center space-y-4">
           <p className="text-lg font-medium text-gray-800 dark:text-gray-100">
