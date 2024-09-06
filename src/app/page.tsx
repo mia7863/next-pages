@@ -6,7 +6,7 @@ const Page = () => {
       <figure className="bg-slate-800 rounded-xl p-8 dark:bg-slate-800 shadow-lg max-w-md mx-auto">
         <Image
           className="h-43 rounded-full mx-auto object-cover"
-          src="/mia.JPG"
+          src="/mia.jpg"
           alt="M Abdullah"
           width={150} height={240}/>
         <blockquote className="text-center space-y-4">
