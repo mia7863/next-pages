@@ -11,7 +11,7 @@ const ContactWithImage = () => {
           {/* Home Image */}
           <Image
             className="h-48 w-48 rounded-full mx-auto object-cover border-4 border-yellow-400 shadow-lg transition-transform duration-500 transform hover:scale-110"
-            src="/contact.jpg"  // Change the image source to something relevant to a home
+            src="/contact.jpg" // Change the image source to something relevant to a home
             alt="Contact image"
             width={192}
             height={192}

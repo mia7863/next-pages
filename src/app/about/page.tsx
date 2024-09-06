@@ -10,14 +10,14 @@ const About = () => {
         <Image
           className="h-45 w-40 rounded-full mx-auto object-cover border-4 border-blue-500"
           src="/aboutme.jpg"
-          alt="Portrait M Abdullah"
+          alt="Portrait of M Abdullah"
           width={160}
           height={160}
         />
         {/* Introduction Section */}
         <blockquote className="text-center space-y-4 mt-6">
           <p className="text-xl font-semibold text-gray-800">
-            “Hello! I'm Muhammad Abdullah, a lifelong learner with a passion for Artificial Intelligence. Currently, I'm learning Generative AI and my mentor is Sir Asif Langra.”
+            &ldquo;Hello! I&apos;m Muhammad Abdullah, a lifelong learner with a passion for Artificial Intelligence. Currently, I&apos;m learning Generative AI and my mentor is Sir Asif Langra.&rdquo;
           </p>
         </blockquote>
         {/* Personal Info Section */}
@@ -42,20 +42,20 @@ const About = () => {
           <div>
             <h3 className="text-2xl font-semibold text-gray-900">My Goals</h3>
             <p className="text-gray-700 mt-2">
-              My goal is to master AI and use it to create solutions that improve people's lives. I am committed to learning and growing every day.
+              My goal is to master AI and use it to create solutions that improve people&apos;s lives. I am committed to learning and growing every day.
             </p>
           </div>
           {/* Favorite Quote */}
           <div>
             <h3 className="text-2xl font-semibold text-gray-900">Favorite Quote</h3>
             <p className="text-gray-700 mt-2">
-              "We experience what we intend for others."
+              &ldquo;We experience what we intend for others.&rdquo;
             </p>
           </div>
         </div>
       </figure>
     </div>
   );
-}
+};
 
 export default About;

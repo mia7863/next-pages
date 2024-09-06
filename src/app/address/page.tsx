@@ -9,7 +9,7 @@ const HomeAddress = () => {
         {/* Home Image */}
         <Image
           className="h-48 w-48 rounded-full mx-auto object-cover border-4 border-teal-400 shadow-lg transition-transform duration-500 transform hover:scale-110"
-          src="/house.jpg"  // Change the image source to something relevant to a home
+          src="/house.jpg" // Change the image source to something relevant to a home
           alt="Home image"
           width={192}
           height={192}
@@ -17,7 +17,7 @@ const HomeAddress = () => {
         {/* Address Section */}
         <blockquote className="text-center space-y-4 mt-6">
           <p className="text-xl font-medium text-gray-700">
-            “Welcome! Here is the address where you can reach out to me.”
+            &ldquo;Welcome! Here is the address where you can reach out to me.&rdquo;
           </p>
         </blockquote>
         {/* Address Details Section */}
@@ -27,7 +27,7 @@ const HomeAddress = () => {
           </div>
           <div className="text-lg text-gray-600 mt-2">
             Link Road<br />
-            Abbasia Town, House Number: 3 <br />
+            Abbasia Town, House Number: 3<br />
             Pakistan
           </div>
         </figcaption>
