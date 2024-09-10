@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           {/* Use the imported JPG image */}
           <Image src={pic} alt="Logo" width={50} height={50} className="rounded-full" />
           <div className="text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-yellow-500 to-blue-500">
-            © 2024 My Project
+            ©️ 2024 My Project
           </div>
         </div>
         {/* Footer Navigation Links */}
